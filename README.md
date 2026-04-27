@@ -102,7 +102,6 @@ cypress/
 │       └── navigation.cy.js
 │
 ├── fixtures/
-├── POM/
 ├── support/
 │   ├── commands.js
 │   └── e2e.js
