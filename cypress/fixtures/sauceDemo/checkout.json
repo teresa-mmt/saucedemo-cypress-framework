@@ -1,0 +1,27 @@
+{
+  "validCustomer": {
+    "firstName": "Teresa",
+    "lastName": "QA",
+    "postalCode": "1000"
+  },
+  "noFirstNameCustomer": {
+    "firstName": "",
+    "lastName": "QA",
+    "postalCode": "1000"
+  },
+  "noLastNameCustomer": {
+    "firstName": "Teresa",
+    "lastName": "",
+    "postalCode": "1000"
+  },
+  "noPostalCustomer": {
+    "firstName": "Teresa",
+    "lastName": "QA",
+    "postalCode": ""
+  },
+  "emptyCheckoutCustomer": {
+    "firstName": "",
+    "lastName": "",
+    "postalCode": ""
+  }
+}

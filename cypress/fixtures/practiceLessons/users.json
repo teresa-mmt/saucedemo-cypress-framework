@@ -1,0 +1,17 @@
+[
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "expectedUrl": "/inventory.html"
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce",
+    "expectedUrl": "/inventory.html"
+  },
+  {
+    "username": "visual_user",
+    "password": "secret_sauce",
+    "expectedUrl": "/inventory.html"
+  }
+]

@@ -1,0 +1,4 @@
+﻿username,password,expectedUrl
+standard_user,secret_sauce,/inventory.html
+problem_user,secret_sauce,/inventory.html
+visual_user,secret_sauce,/inventory.html
