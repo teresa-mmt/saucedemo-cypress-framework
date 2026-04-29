@@ -2,22 +2,22 @@
 
 ## Project Overview
 
-This project is a production-ready End-to-End (E2E) Cypress automation framework built for Sauce Demo.
+This project is an End-to-End (E2E) Cypress automation framework built for Sauce Demo.
 
 The framework validates the complete retail purchase workflow including authentication, product selection, cart validation, checkout process, order completion, and application state management.
 
-This project follows real QA team architecture using business-domain ownership instead of page-per-file test design.
+This project follows a real QA structure using business-domain ownership instead of page-per-file test design.
 
 ---
 
 ## Business Flow Covered
 
-Login
-→ Inventory
-→ Cart
-→ Checkout Information
-→ Checkout Overview
-→ Order Completion
+Login  
+→ Inventory  
+→ Cart  
+→ Checkout Information  
+→ Checkout Overview  
+→ Order Completion  
 → Navigation & State Management
 
 ---
@@ -73,6 +73,7 @@ Login
 - Chai
 - Git
 - GitHub
+- Qase
 
 ---
 
@@ -80,7 +81,6 @@ Login
 
 - Smoke Testing
 - Functional Testing
-- Regression Testing
 - Negative Testing
 - End-to-End Testing
 - Resilience Testing
@@ -88,25 +88,55 @@ Login
 
 ---
 
-## Project Structure
+# Manual QA Documentation
 
-```text
-cypress/
-├── e2e/
-│   ├── practiceLessons/
-│   └── sauceDemo/
-│       ├── login.cy.js
-│       ├── inventory.cy.js
-│       ├── cart.cy.js
-│       ├── checkout.cy.js
-│       └── navigation.cy.js
-│
-├── fixtures/
-├── support/
-│   ├── commands.js
-│   └── e2e.js
-│
-├── cypress.config.js
-├── package.json
-├── README.md
-└── .gitignore
+This project also includes supporting manual QA documentation to reflect real-world QA process beyond automation execution.
+
+## Sauce Demo Manual QA Test Cases
+
+Manual test cases were created in Qase under the section:
+
+### Sauce Demo Manual QA Test Cases
+
+The test case repository covers:
+
+- Module 1 — Login
+- Module 2 — Inventory
+- Module 3 — Cart
+- Module 4 — Checkout
+- Module 5 — Checkout
+- Module 6 — Navigation & State Management
+
+Coverage includes:
+
+- Functional validation
+- Negative scenarios
+- End-to-End flow validation
+- State validation
+- Business flow verification
+- Critical user journey testing
+
+Qase was used for:
+
+- Test Case Management
+- Test Execution Tracking
+- Defect Documentation
+- Validation Coverage
+- Manual QA Workflow Organization
+
+Screenshots and exported documentation are included in this repository for review.
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
+
+![alt text](image-4.png)
+
+![alt text](image-5.png)
+
+
+
+---
+

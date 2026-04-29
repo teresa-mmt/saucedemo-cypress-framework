@@ -10,6 +10,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "cypress": "^15.13.0"
+    "cypress": "^15.13.0",
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-qase-reporter": "^3.5.0"
   }
 }

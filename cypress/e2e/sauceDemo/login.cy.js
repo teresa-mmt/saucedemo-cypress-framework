@@ -7,7 +7,7 @@ describe('Login Function Sauce Demo', () => {
 
     // ************************* Phase 1 - Core Critical Flow
     describe('Phase 1 - Core Critical Flow', () => {
-        it('Verify login page loads successfully', () => {
+        it('Verify login page loads successfully'), () => {
 
             cy.get('[data-test="username"]')
                 .should('be.visible')
@@ -17,19 +17,18 @@ describe('Login Function Sauce Demo', () => {
 
             cy.get('[data-test="login-button"]')
                 .should('be.visible')
-        })
+        }
 
 
-        it('verify valid login', () => {
+        it('Verify standard user can login successfully'), () => {
 
-            cy.loginSauce('standardUser') //custom command for  login
+            cy.loginSauce('standardUser')
 
             cy.get('[data-test="title"]')
                 .should('contain', 'Products')
 
             cy.checkInventoryPage()
-        })
-
+        }
 
     })
     // ************************* END Phase 1 - Core Critical Flow
