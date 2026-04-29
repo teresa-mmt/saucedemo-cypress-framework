@@ -126,7 +126,7 @@ Qase was used for:
 
 Screenshots and exported documentation are included in this repository for review.
 
-![alt text](image-1.png)
+![alt text](image.png)
 
 ![alt text](image-2.png)
 
@@ -135,7 +135,6 @@ Screenshots and exported documentation are included in this repository for revie
 ![alt text](image-4.png)
 
 ![alt text](image-5.png)
-
 
 
 ---
